@@ -19,10 +19,10 @@ const GuessedWords = props => {
       ) : (
         <div data-test="guessed-words">
           <h3>Guessed words</h3>
-          <table>
+          <table className="table table-sm">
             <thead>
               <tr>
-                <th>Guess</th>
+                <th className="thead-light">Guess</th>
                 <th>Matching letters</th>
               </tr>
             </thead>
