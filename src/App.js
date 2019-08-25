@@ -6,7 +6,7 @@ import GuessedWords from "./GuessedWords";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container fluid">
       <h1>Jotto</h1>
       <Congrats success={true} />
       <GuessedWords
