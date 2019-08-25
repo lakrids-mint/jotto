@@ -10,7 +10,7 @@ function App() {
     <div className="container fluid">
       <h1>Jotto</h1>
       <Input></Input>
-      <Congrats success={false} />
+      <Congrats success={true} />
       <GuessedWords
         guessedWords={[{ guessedWord: "train", letterMatchCount: 3 }]}
       />
